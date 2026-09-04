@@ -102,18 +102,7 @@ Update target network
 Decay exploration rate
 ```
 
-## Evaluation
 
-Controller performance is evaluated using:
-
-| Metric                     | Description                                          |
-| -------------------------- | ---------------------------------------------------- |
-| Mean Absolute Angle Error  | Average deviation from upright position              |
-| Stabilization Duration     | Continuous time maintaining the upright state        |
-| Stabilization Success Rate | Percentage of successful balancing trials            |
-| Control Effort             | Magnitude of motor voltage used during stabilization |
-
-> Numerical evaluation values can be added to this section after the final hardware evaluation.
 
 ## Project Structure
 
@@ -146,24 +135,5 @@ QUBE-Double-DQN/
 
 ```
 
-## Learning Outcomes
 
-This project provided practical experience with:
 
-* Deep reinforcement learning for control systems
-* Double DQN implementation
-* Neural-network-based decision making
-* Experience replay and target networks
-* Real-time sensor acquisition
-* Discrete motor control
-* Deployment of ML policies on physical hardware
-
-## Hardware
-
-The project uses the **Quanser QUBE-Servo 3**, a rotary inverted-pendulum platform designed for experimentation in control, robotics, and reinforcement learning.
-
-## Author
-
-**Rineesha Pereira**
-Master's Student — Computer and Systems Engineering
-TU Ilmenau, Germany
