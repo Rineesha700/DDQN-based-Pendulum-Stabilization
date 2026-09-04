@@ -126,36 +126,12 @@ QUBE-Double-DQN/
 ├── replay_buffer         # state replay
 ```
 
-## Installation
 
-Clone the repository and install the required dependencies:
 
-```bash
-git clone <repository-url>
-cd <repository-folder>
 
-pip install -r requirements.txt
-```
 
-## Running the Project
 
-### Train the Double DQN
 
-```bash
-python train.py
-```
-
-The training process learns a control policy through interaction with the QUBE environment.
-
-### Run the Trained Controller
-
-After training, the learned model can be loaded and deployed on the QUBE-Servo 3 for real-time stabilization.
-
-```bash
-python <deployment_file>.py
-```
-
-**Note:** The QUBE hardware must be connected and properly initialized before running the real-time controller.
 
 ## Technologies
 
